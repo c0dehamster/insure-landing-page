@@ -390,6 +390,10 @@ h2,
 	margin-block-end: 2.5rem;
 }
 
+.social-links__path {
+	transition: 150ms;
+}
+
 .footer-nav {
 	width: 100%;
 	padding-block-start: 2.5rem;
