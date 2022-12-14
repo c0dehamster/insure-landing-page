@@ -123,6 +123,8 @@ h2,
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+	z-index: 20;
 
 	padding-inline: 1.5rem;
 
@@ -133,6 +135,22 @@ h2,
 	border: 2px solid var(--color-button);
 	color: var(--color-button);
 	cursor: pointer;
+}
+
+.button__text {
+	position: relative;
+	z-index: 20;
+}
+
+.button::before {
+	content: "";
+	position: absolute;
+	top: -1px;
+	bottom: -1px;
+	left: 50%;
+	right: 50%;
+	background-color: var(--color-button);
+	transition: 100ms;
 }
 
 .visually-hidden {
@@ -180,6 +198,7 @@ h2,
 
 .header__link {
 	color: var(--color-neutral-dark-grayish-violet);
+	transition: 150ms;
 }
 
 .nav-toggle {
@@ -441,8 +460,13 @@ h2,
 .button:hover,
 .button:focus {
 	color: transparent;
-	background-color: var(--color-button);
 	color: var(--color-button-background);
+}
+
+.button:hover::before,
+.button:focus::before {
+	left: 0px;
+	right: 0px;
 }
 
 .social-links__link:hover path,
