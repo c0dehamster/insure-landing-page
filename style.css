@@ -287,7 +287,7 @@ h2,
 
 .advantages__heading::before {
 	content: "";
-	border-top: 1px solid var(--color-neutral-dark-grayish-violet);
+	border-top: 1px solid var(--color-primary-grayish-blue);
 	width: 150px;
 	height: 1em;
 }
@@ -387,7 +387,7 @@ h2,
 	padding-block-start: 2.5rem;
 	display: grid;
 	justify-items: center;
-	border-top: 1px solid var(--color-neutral-dark-grayish-violet);
+	border-top: 1px solid var(--color-primary-grayish-blue);
 	gap: 2.5rem;
 }
 
@@ -400,7 +400,7 @@ h2,
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
+	gap: 0.5rem;
 }
 
 .footer__link {
