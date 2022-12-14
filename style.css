@@ -287,7 +287,7 @@ h2,
 
 .advantages__heading::before {
 	content: "";
-	border-top: 2px solid var(--color-neutral-dark-grayish-violet);
+	border-top: 1px solid var(--color-neutral-dark-grayish-violet);
 	width: 150px;
 	height: 1em;
 }
@@ -560,7 +560,7 @@ h2,
 	.hero__heading::before {
 		content: "";
 		display: block;
-		border-top: 2px solid var(--color-neutral-very-light-gray);
+		border-top: 1px solid var(--color-neutral-very-light-gray);
 		width: 150px;
 		height: 1em;
 	}
