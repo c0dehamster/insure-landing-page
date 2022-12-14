@@ -562,7 +562,7 @@ h2,
 		background-repeat: no-repeat;
 		background-position: right top;
 		position: absolute;
-		inset: -10% 0 0 0;
+		inset: -10% 0 0 50%;
 	}
 
 	.hero__heading::before {
