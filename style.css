@@ -639,7 +639,7 @@ h2,
 	/* Footer */
 
 	.footer {
-		padding-inline: 8.75rem;
+		padding-inline: 165px;
 		padding-block: 4rem;
 		background-image: url("images/bg-pattern-footer-desktop.svg");
 	}
