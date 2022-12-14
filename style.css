@@ -76,7 +76,7 @@ select {
 	--font-size-700: 38px;
 	--font-size-800: 44px;
 	--font-size-850: 52px;
-	--font-size-900: 64px;
+	--font-size-900: 70px;
 
 	--font-size-heading-responsive: clamp(var(--font-size-600), 11.73vw, var(--font-size-900));
 
